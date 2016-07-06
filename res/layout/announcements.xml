@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeffee"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/a8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#0099cc"
+        android:text="Announcements"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/progressbar_Horizontal8"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="5dip"
+        android:background="#228b22"
+        android:max="100" />
+
+    <WebView
+        android:id="@+id/weba"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:noHistory="false" >
+    </WebView>
+
+</LinearLayout>

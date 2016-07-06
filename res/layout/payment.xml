@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#0099cc"
+        android:text="Payment"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity=""
+                android:text="Please note the following points:
+\n\n1.  Basic Registration Fee (Rs. 350) has to be paid by all delegates, Active or Passive. The Basic Registration Fee for registrations after August 7th is Rs. 450.
+\n2.  Fee for Workshops, Case, Paper and Poster is to be paid ONLY IF THE CANDIDATE HAS BEEN SELECTED. List of selected candidates will be announced on the Facebook page, Android app and sent to email subscribers. Selected candidates will be sent an email too.
+\n3.  Recommended mode of payment is “4. Inter-bank transfer through NEFT/RTGS”.
+\n4.  You can find your due amount in your Registration email. You can also use the Amount Calculator on the website.
+\n5.  Please do not pay the fees if you haven't received your Unique Registration ID.
+\n6.  Please follow all instructions carefully. Your payment WILL BE REJECTED upon incomplete submission.
+\n7.  Fee once paid is non-refundable.
+
+\nThe following modes of payment are available:
+
+\n\n1. Direct Payment in-person at OSMECON Secretariat
+\n2. Cash Deposit at any State Bank Branch (Recommended)	
+\n3. Cheque Deposit at any State Bank Branch
+\n4. Inter-Bank Transfer through NEFT
+\n5. Online Payment
+\n\n1. Direct Payment in-person at OSMECON Secretariat
+\n- You can pay the fees in cash directly at our office.
+\n- Address:
+\nOSMECON Secretariat
+\nRoom Number 140,
+\nOsmania Medical College,
+\nHyderabad – 500095
+\n- Timings: 1 PM to 5 PM Monday to Saturday
+\n- You can also deposit the amount in the OMC branch of SBH in case the office is not open.
+
+\n\n2. Cash Deposit at any State Bank Branch (Recommended)
+\nYou can deposit the fee amount in the account mentioned below, from any branch of any bank of the State Bank group. Please keep the counterfoil for future correspondence. The Payment details are:
+\n- From any branch of any State Bank at:
+\nAccount Name: OSMECON 2014
+\nAccount Number: 62347404634
+\n- Rs. 50 will be charged extra by all bank branches (except SBH, OMC branch). PLEASE ADD RS. 50 TO YOUR AMOUNT IF USING THIS MODE.
+\n- IMPORTANT: Please send a scanned copy / photo of both sides of the counterfoil (Front and Back) with your BANK BRANCH ADDRESS (FROM WHERE YOU ARE DEPOSITING CASH) CLEARLY VISIBLE and your NAME, UNIQUE REGISTRATION ID AND MOBILE NUMBER written on the back side, to our email address: payments@osmecon.org (or) via Whatsapp to +917893890154. (If you are paying for more than one member, write the name and mobile no. of all members).
+\n- Your payment WILL BE REJECTED if the above rules aren’t followed.
+
+
+\n\n3. Cheque Deposit at any State Bank Branch
+\nYou can deposit a cheque containing the fee amount on the name of the account mentioned below, at any branch of any bank of the State Bank group. Please keep the counterfoil for future correspondence. The Payment details are:
+\n- From any branch of any State Bank at:
+\nAccount Name: OSMECON 2014
+\nAccount Number: 62347404634
+\n- IMPORTANT: Please send a scanned copy / photo of both sides of the counterfoil (Front and Back) with the CHEQUE NO. CLEARLY VISIBLE and your NAME, UNIQUE REGISTRATION ID AND MOBILE NUMBER written on the back side, to our email address: payments@osmecon.org or via Whatsapp to +917893890154. (If you are paying for more than one member, write the name and mobile no. of all members).
+\n- Your payment WILL BE REJECTED if the above rules aren’t followed.
+
+\n\n4. Inter-Bank Transfer through NEFT
+\nYou can transfer the fee amount in the account mentioned below, from any bank having core banking facility through RTGS/NEFT option. Please keep the counterfoil for future correspondence. Please note down the UTR number after completion of the transaction at your bank. The Payment details are:
+\n- Name of Bank:
+\nSTATE BANK OF HYDERABAD, OSMANIA MEDICAL COLLEGE, KOTI.
+\nAccount Name: OSMECON 2014
+\nAccount Number: 62347404634
+\nIFSC/NEFT Code: SBHY0021110
+\n- IMPORTANT: Please send a scanned copy / photo of both sides of the counterfoil (Front and Back) with your NAME, UNIQUE REGISTRATION ID AND MOBILE NUMBER written on the back to our email address: info@osmecon.org or via Whatsapp to +917893890154. (If you are paying for more than one member, write the name and mobile no. of all members).
+\n- Your payment WILL BE REJECTED if the above rules aren’t followed.
+
+\n\n5. Online Payment
+\n- Payment can be made using Credit Card / Debit Card / NetBanking of all major banks (similar to Online Shopping Websites).
+\n- The Fee amount will be marginally higher in Online Payment when compared to other payment methods.
+\n- Online Payment can be made at our website: www.osmecon.org/Payment"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+             
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Case Presentation"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/tb1"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/b" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/tb3"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/tb4"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/tb5"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/tb6"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

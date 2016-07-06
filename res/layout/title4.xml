@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/a4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#0099cc"
+        android:text="Contact Us"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/fb"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/fbl"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/call"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/help"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:text="@string/help_no"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/jss"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:text="@string/jss_no"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/oss"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:text="@string/oss_no"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/find"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/find_us"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/reach"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/train"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/by_train"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/flight"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/by_flight"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/bus"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/by_bus"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/home_copyright"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="normal" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

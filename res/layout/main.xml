@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/water2"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/t"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="#0099cc"
+            android:text="OSMECON 2014"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" >
+        </Button>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/home_welcome"
+                    android:textColor="#222222"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/imag" >
+                    </ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Scroll below for more"
+                    android:textColor="#111111"
+                    android:textSize="13sp"
+                    android:textStyle="normal" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/title1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="About Us"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+
+                <Button
+                    android:id="@+id/title2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Events"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+
+                <Button
+                    android:id="@+id/title5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Theme"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+                
+               
+                <Button
+                    android:id="@+id/titlewa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Schedule"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+               
+                <Button
+                    android:id="@+id/cguestb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Chief Guest"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+               
+                <Button
+                    android:id="@+id/title3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Register"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+
+                 <Button
+                    android:id="@+id/pay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Payment"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+                
+                 <Button
+                    android:id="@+id/accb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Accomodation"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+               
+                
+                <Button
+                    android:id="@+id/abutton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Announcements"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+
+                <Button
+                    android:id="@+id/title4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="Contact Us"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+
+                <Button
+                    android:id="@+id/team"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sel"
+                    android:text="The Team"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="italic" >
+                </Button>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/home_poem"
+                    android:textColor="#111111"
+                    android:textSize="20sp"
+                    android:textStyle="italic" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/home_note"
+                    android:textColor="#111111"
+                    android:textSize="20sp"
+                    android:textStyle="normal" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/home_copyright"
+                    android:textColor="#111111"
+                    android:textSize="12sp"
+                    android:textStyle="normal" >
+                </TextView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

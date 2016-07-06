@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#0099cc"
+        android:text="Events"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="Paper Presentation"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="Case Presentation"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="Poster Presentation"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="Workshops"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="Debate"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/f"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="MedQuiz"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/g"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="MedTech"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+
+            <Button
+                android:id="@+id/h"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel"
+                android:text="Other Events"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="italic" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

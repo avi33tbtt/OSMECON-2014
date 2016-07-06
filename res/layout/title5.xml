@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeffee"
+    android:orientation="vertical" >
+
+    
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+    <Button
+        android:id="@+id/a5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#0099cc"
+        android:text="Theme"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </Button>
+<ImageView
+                android:layout_width="250dp"
+                android:layout_height="380dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/theme" >
+            </ImageView>
+   <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="THEME OF THE CONFERENCE"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+       
+   <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Mental Health:\nThe Psychological Renaissance"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+            
+     <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Abandon your Illusions of the Delusional"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+            
+     <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Evidence from WHO suggests that nearly half of the world’s population are affected by mental illness with an impact on their self-esteem, relationships and ability to function in everyday life. This isn’t something that can be brushed aside, more so by the medical fraternity. To the people, we were healers with a mystical touch in one age, physicians and doctors in another and we’re increasingly moving towards being just healthcare professionals – more mechanical in approach and less human in healing. It’s time we take a step back and look at how sparingly the health of the psyche and well being of the mind has been addressed.\n\nThere is an unquestionable stigma regarding with mental health disorders in the society at large and a subtle yet certain indifference in the medical community in particular. No, this is not just about serious schizophrenia or bipolar disorder. It is also about anxiety, stress, depression, addiction, relationship or behavioral problems that you, I and every other patient you encounter might suffer from. As critical as it is to well being, it is surprising that mental health is often missing from public health debates and has become a taboo that deserves to highlighted, discussed and fairly dealt with.\n\nLet us strive to be holistic healers of the people than mere engineers of the human body. At OSMECON ’14, we urge you all to abandon the illusion of the delusional, to let go of the cliches and stereotypes and fight the stigma that covertly and overtly arises with the mere mention of ‘mental health’."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" >
+            </TextView>
+            
+      <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="About the poster\n\nThe name OSMECON lies against the backdrop of the beautiful painting “The Starry Night” by Vincent van Gogh. A deeply misunderstood artist, van Gogh represents the plight of a typical mentally unwell patient in the society. van Gogh suffered from severe bouts of depression and anxiety. He is infamous for cutting off his own ear in a fit of lunacy, though it has later been found to be a wrong notion. Most of his artworks were created in the asylum where he was kept, the world getting to see them only after his death. That such a beautiful painting could come from such a troubled mind is proof that a disturbed mind is not an incapable mind, it only needs our care and support to prosper and bloom.\n\nThe painting is supplemented by “The Scream” by Edvard Munch, a painting famous for it’s depiction of emotion, believed by many to depict the feeling of a depersonalisation disorder experience and by some as the feeling of Trigeminal Neuralgia. Also present are some surreal and eccentric artworks of Salvador Dali, who has a distinguished following for his unique style."
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+            
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

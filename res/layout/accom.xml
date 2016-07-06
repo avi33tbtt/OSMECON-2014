@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/accomb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#0099cc"
+        android:text="Accomodation"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity=""
+                android:text="•  Accommodation will be handled by our Hospitality Team. You only need to pay the accommodation charges.\n\n•  Accommodation charges are Rs. 750 per day per head.\n\n•  Place of accommodation is at a walkable distance from the college.\n\n•  The accommodation is safe with good quality rooms and service.\n\n•  Rooms will be allotted on sharing basis with two delegates per room.\n\n•  Time for check-in and check-out on each day is 10 AM.\n\n•  Accommodation will only be provided from September 3rd 10 AM till September 7th 10 AM.\n\n•  Breakfast, lunch and dinner will be provided with the package.\n\n•  Accommodation can be provided for parent/guardian on payment of an extra Rs. 750 per day per head for the parent/guardian. Breakfast and Dinner will be provided. Lunch has to be self-arranged or Coupons bought at the event. While making payment for parent, please mention “Parent of --Delegate Name--” and mobile no. same as the Delegate whenever asked.\n\n•  The place of Accommodation is Hotel Tourist Palace, Koti, Hyderabad.\n\nFor doubts about Accommodation, please call:\n\nManoj: (0)739-685-1677\n\nKrishna Chakra: (0)949-396-3440\n\nSukrit: (0)900-070-3752\n\n\n\nReaching Osmania Medical College\n\n- Train\n\nThe closest train station is at Hyderabad Deccan-HYB (Nampally) which is 2 kilometres away. It is considered the best to board or arrive from out state destination trains in Hyderabad. Other important railway stations in Hyderabad include Secunderabad/ Kachiguda/ Begumpet Railway stations.\n\n- Flight\n\nRajiv Gandhi International Airport (ranked among the top airports of the world ) is located 23 kilometres away from Osmania Medical College. Car rental and Taxi services are available at the airport.\n\n\n\n- Bus\n\nMahatma Gandhi Bus Station (the largest in Asia) located close to Koti is a major bus station, and it is a road transport gateway to the city. This bus station provides transport to all parts of the state and country.\n\nThe local city Bus terminus is located adjacent to the Mahatma Bus station, providing connectivity to all parts of the city."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+             
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

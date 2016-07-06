@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Chief Guest"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+      <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
+            
+      
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="320dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/chief" >
+            </ImageView>
+</LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Dr. V.M. Katoch"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Director-General, Indian Council of Medical Research (ICMR)\nSecretary to the Govt. of India (Dept. of Health Research)"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Developer of modern methods of rapid diagnosis of TB, leprosy, DNA chips; DNA fingerprinting methods etc., contributed to expansion of mandate of JALMA from leprosy to all mycobacterial diseases.\n\nRecepient of many national and international awards and fellowships. Contributed over 270 research papers in Indian, European, American and other foreign journals.\n\nYou can find more info about him here: http://icmr.nic.in/000251/dg.htm"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

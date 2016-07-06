@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="MedTech"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Synapse of scientists-in-making."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/g" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="The first of its kind, at its inception, the confluence of Medicine and Technology! An opportunity for the budding researchers* to present their medically related models. Even simulators are allowed to be a part of the event. It encourages the future serving hands to break boundaries, expand their horizons and put in their knowledge and experience, taking a step ahead for the betterment of health care."
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="* = Students of Medicine/ Engineering/ BioMed/ Biotech and other related sciences."
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Guidelines"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="@string/po"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="Selection Process:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="fill_horizontal"
+                android:text="- Selection will be done by an evaluation team of senior faculty members. Submissions that do not fulfil all the above mentioned criteria will be rejected."
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="normal" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
